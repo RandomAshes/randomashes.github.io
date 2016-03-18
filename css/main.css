@@ -1,7 +1,25 @@
 body {
-	margin-top: 20%;
 	background: black;
 	color: white;
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
+
+div {
+	margin-top: 13%;
+	padding: 5%;
+	display: inline-block;
+/*	border: 1px solid #222;*/
+	border-radius: 10px;
+}
+
+div p {
+	color: gray;
+}
+
+div a:hover {
+	color: white;
+}
