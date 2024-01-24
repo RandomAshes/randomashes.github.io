@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier:fix": "prettier --write '**/*.{scss,tsx,ts,js}'",
+    "prettier": "prettier --check '**/*.{scss,tsx,ts,js}'"
   },
   "dependencies": {
     "@types/node": "20.4.0",
@@ -20,6 +22,8 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.4",
     "sass": "^1.63.6"
   }
 }
