@@ -1,4 +1,4 @@
-@use '../../styles//main.scss';
+@use '../../styles/main';
 
 .nav {
 	background-color: main.$black;
@@ -8,10 +8,19 @@
 .list {
 	list-style: none;
 	display: flex;
-	justify-content: flex-end;
-	margin: 0 auto;
-	width: 1000px;
-	margin-block: 0.5rem;
+	justify-content: center;
+	width: 100%;
+	margin: 0.5rem auto;
+
+	@include main.breakpoint-medium {
+		max-width: 800px;
+		justify-content: flex-end;
+	}
+
+	@include main.breakpoint-large {
+		max-width: 1000px;
+		justify-content: flex-end;
+	}
 }
 
 .item {
