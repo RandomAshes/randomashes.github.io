@@ -1,12 +1,17 @@
+@use '../styles/main';
+
 .nav {
-	background-color: #333;
+	background-color: main.$black;
 	padding: 10px;
 }
 
 .list {
 	list-style: none;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: flex-end;
+	margin: 0 auto;
+	width: 1000px;
+	margin-block: 0.5rem;
 }
 
 .item {
@@ -15,7 +20,7 @@
 
 .link {
 	text-decoration: none;
-	color: white;
+	color: main.$cream;
 	font-weight: bold;
 	font-size: 16px;
 	padding: 10px;
@@ -23,6 +28,6 @@
 	transition: background-color 0.3s ease-in-out;
 
 	&:hover {
-		background-color: #555;
+		background-color: lighten(main.$black, 20%);
 	}
 }
