@@ -1,0 +1,23 @@
+@use './styles/main';
+
+.backgroundImage {
+	object-fit: cover;
+	z-index: -1;
+}
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15rem;
+	padding: 5rem;
+	background-color: rgb(main.$cream, 50%);
+	border-radius: 0.5rem;
+	width: 30rem;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s ease-in-out;
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		background-color: rgb(main.$cream, 60%);
+	}
+}
