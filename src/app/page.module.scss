@@ -13,7 +13,7 @@
 			text-align: center;
 			margin-inline: auto;
 			padding: 5rem;
-			background-color: rgb(main.$cream, 50%);
+			background-color: rgb(main.$cream, 80%);
 			border-radius: 0.5rem;
 			max-width: 30rem;
 			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -21,7 +21,7 @@
 			transition: 0.5s ease-in-out;
 
 			&:hover {
-				background-color: rgb(main.$cream, 60%);
+				background-color: rgb(main.$cream, 95%);
 			}
 		}
 	}

@@ -6,7 +6,7 @@ function HomePage() {
 	return (
 		<div className={styles.homePage}>
 			<Image
-				src="/images/pexels-rizky-subagja-9053882_medium.jpg"
+				src="/images/pexels-cup-of-couple-6177607.jpg"
 				sizes="(min-width: 768px) 100vw, 50vh"
 				fill
 				alt="Picture of the author"
