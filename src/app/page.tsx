@@ -4,7 +4,7 @@ import styles from './page.module.scss';
 
 function HomePage() {
 	return (
-		<div>
+		<div className={styles.homePage}>
 			<Image
 				src="/images/pexels-rizky-subagja-9053882_medium.jpg"
 				sizes="(min-width: 768px) 100vw, 50vh"
@@ -13,8 +13,10 @@ function HomePage() {
 				className={styles.backgroundImage}
 			/>
 			<div className={styles.content}>
-				<h1>Ashley Clifton</h1>
-				<p>Software Engineer</p>
+				<div className={styles.card}>
+					<h1>Ashley Clifton</h1>
+					<p>Software Engineer</p>
+				</div>
 			</div>
 		</div>
 	);

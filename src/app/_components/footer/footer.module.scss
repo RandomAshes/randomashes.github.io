@@ -1,0 +1,47 @@
+@use '../../styles/main.scss';
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+
+	.list {
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialLink {
+		display: inline-block;
+		text-indent: -9999px;
+		margin-left: 5px;
+		width: 30px;
+		height: 30px;
+		background-size: 30px 30px;
+		opacity: 0.4;
+		transition: all 0.5s;
+
+		&:hover {
+			color: #57102c;
+			opacity: 1;
+		}
+
+		&.twitter {
+			background-image: url('/images/twitter_icon.svg');
+		}
+
+		&.linkedin {
+			background-image: url('/images/linkedin_icon.svg');
+		}
+
+		&.github {
+			background-image: url('/images/github_icon.svg');
+		}
+	}
+
+	.copyright {
+		margin-top: 0.5rem;
+		font-size: 0.75em;
+	}
+}

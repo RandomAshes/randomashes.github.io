@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Merriweather } from 'next/font/google';
-import Nav from './_components/nav';
+import Nav from './_components/nav/nav';
 
+import Footer from './_components/footer/footer';
 import styles from './layout.module.css';
 import './globals.scss';
 
@@ -22,6 +23,7 @@ export default function RootLayout({
 			<body className={merriweatherFont.className}>
 				<Nav />
 				<main className={styles.main}>{children}</main>
+				<Footer />
 			</body>
 		</html>
 	);
