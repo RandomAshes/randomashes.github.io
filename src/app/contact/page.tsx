@@ -1,7 +1,9 @@
+import ComingSoon from "../_components/coming-soon/coming-soon";
+
 function ContactPage() {
 	return (
 		<div>
-			<h1>Contact</h1>
+			<ComingSoon />
 		</div>
 	);
 }

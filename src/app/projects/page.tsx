@@ -1,7 +1,9 @@
+import ComingSoon from '../_components/coming-soon/coming-soon';
+
 function ProjectsPage() {
 	return (
 		<div>
-			<h1>Projects</h1>
+			<ComingSoon />
 		</div>
 	);
 }
