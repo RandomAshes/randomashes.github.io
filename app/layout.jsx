@@ -4,8 +4,8 @@ import './globals.scss';
 const merriweatherFont = Merriweather({ weight: '300', subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Your Name - Portfolio',
-  description: 'Designer & Developer creating thoughtful digital experiences',
+  title: `${process.env.NAME} - Portfolio`,
+  description: 'Full-Stack Software Engineer creating thoughtful digital experiences',
 };
 
 export default function RootLayout({ children }) {

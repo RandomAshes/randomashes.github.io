@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.content}>
-          <p>&copy; 2026 Your Name</p>
+          <p>&copy; 2026 {process.env.NAME}</p>
           <p>Designed & built with care</p>
         </div>
       </div>

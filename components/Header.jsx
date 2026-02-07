@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className="container">
         <div className={styles.nav}>
-          <div className={styles.logo}>Ashley Clifton</div>
+          <div className={styles.logo}>{process.env.NAME}</div>
           <ul className={styles.navLinks}>
             <li><a href="#work">Work</a></li>
             <li><a href="#about">About</a></li>

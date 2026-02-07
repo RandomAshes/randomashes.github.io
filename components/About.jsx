@@ -8,11 +8,11 @@ export default function About() {
           <h2 className={styles.title}>About</h2>
           <div className={styles.text}>
             <p>
-              I'm a designer and developer based in [Your Location], focused on creating 
+              I'm developer based in [Your Location], focused on creating
               meaningful digital experiences that are both beautiful and functional.
             </p>
             <p>
-              With a background in both design and development, I bring a unique perspective 
+              With a background in development, I bring a unique perspective
               to every project. I believe in the power of simplicity, clean code, and thoughtful 
               user experiences.
             </p>
