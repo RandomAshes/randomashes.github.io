@@ -1,0 +1,85 @@
+.contact {
+  background: var(--white);
+  padding: 8rem 0;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.link {
+  font-size: 1.3rem;
+  color: var(--eucalyptus);
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: var(--sage);
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socialLink {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: var(--eucalyptus);
+  }
+}
+
+.divider {
+  color: var(--border);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 5rem 0;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .link {
+    font-size: 1.1rem;
+  }
+  
+  .social {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

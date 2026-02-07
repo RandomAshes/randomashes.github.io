@@ -1,0 +1,19 @@
+import { Merriweather } from 'next/font/google';
+import './globals.scss';
+
+const merriweatherFont = Merriweather({ weight: '300', subsets: ['latin'] });
+
+export const metadata = {
+  title: 'Your Name - Portfolio',
+  description: 'Designer & Developer creating thoughtful digital experiences',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={merriweatherFont.className}>
+        {children}
+      </body>
+    </html>
+  );
+}
